@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+   }
+   
+   .pared {
+       display: flex;
+       flex-direction: column;
+       gap: 6px;
+   }
+   
+   .fila{
+       display:flex ;
+       gap: 6px;
+   }
+   
+   .fila.offset {
+   margin-left: 55px;
+   
+   }
+   
+   .ladrillo {
+       width: 100px;
+       height: 50px;
+       background-color: rgb(176, 127, 255);
+       border: 3px solid;
+       box-sizing: border-box;
+       
+   
+   
+   
+   }
